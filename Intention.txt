@@ -1,0 +1,8 @@
+GOAL
+	o A4988 stepper motor controller control
+
+PLATFORM
+	o RTOS is OK as space is not critical
+	o HAL is OK initially. Hopefully will be dumped as we progress
+
+
