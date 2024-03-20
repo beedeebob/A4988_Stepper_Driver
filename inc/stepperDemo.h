@@ -11,10 +11,13 @@
 #define STEPPERDEMO_H_
 
 /* Includes ------------------------------------------------------------------*/
+#include "main.h"
+
 /* Exported defines ----------------------------------------------------------*/
 /* Exported types ------------------------------------------------------------*/
 /* Exported variables --------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
 void STP_Startup(void);
+void STP_SetFrequency(uint32_t frequency);
 
 #endif /* STEPPERDEMO_H_ */
